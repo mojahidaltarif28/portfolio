@@ -3196,7 +3196,7 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
-        padding-bottom: 10px;
+        padding-bottom: 60px;
         width: 100%; 
         overflow: scroll;
     }
@@ -3369,7 +3369,7 @@
 
     .second-section {
 
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
