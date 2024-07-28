@@ -3199,7 +3199,6 @@
         padding-bottom: 10px;
         width: 100%; 
         overflow: scroll;
-        z-index: 100;
     }
 
     .left-s-f {
@@ -3369,7 +3368,8 @@
     }
 
     .second-section {
-        display: flex;
+
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
