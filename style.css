@@ -3199,6 +3199,7 @@
         padding-bottom: 10px;
         width: 100%; 
         overflow: scroll;
+        z-index: 100;
     }
 
     .left-s-f {
@@ -3343,7 +3344,6 @@
         justify-content: space-evenly;
         align-items: center;
         margin-top: 15px;
-        border: 2px solid brown;
     }
 
     .social-media a {
