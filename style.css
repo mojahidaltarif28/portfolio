@@ -3138,7 +3138,7 @@
 
 /* width 200 to 750 for mobile */
 
-@media(min-width:200px) and (max-width:750px) {
+@media(min-width:10px) and (max-width:750px) {
     .navbar {
         height: 50px;
         background-color: #037171;
@@ -3196,8 +3196,9 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
-        padding-bottom: 40px;
-        width: 100%;
+        padding-bottom: 50px;
+        width: 100%; 
+        overflow: auto;
     }
 
     .left-s-f {
@@ -3350,10 +3351,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 23px;
+        width: 25px;
         border: 1px solid #037171;
         background-color: #d6f0f0;
-        padding-right: 2px;
         color: #0f1010;
     }
 
@@ -3375,6 +3375,7 @@
         padding-bottom: 10px;
         background-color: #e1f9f9;
         width: 100%;
+        overflow: auto;
 
     }
 
@@ -3582,6 +3583,7 @@
         padding-bottom: 20px;
         margin-top: 10px;
         width: 100%;
+        overflow: auto;
 
     }
 
@@ -3718,6 +3720,7 @@
         align-items: center;
         margin-top: 10px;
         width: 100%;
+        overflow: auto;
     }
 
     .left-f-section {
@@ -4014,6 +4017,7 @@
         margin-top: 15px;
         background-color: #d6f0f0;
         width: 100%;
+        overflow: auto;
     }
 
     .fifth-heading {
