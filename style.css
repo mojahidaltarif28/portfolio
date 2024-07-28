@@ -3294,9 +3294,9 @@
 
     .description {
         margin-top: 15px;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-family: 'Times New Roman', Times, serif;
-        color: rgb(0, 0, 0);
+        color: rgba(0, 0, 0, 0.914);
         text-align: justify;
     }
 
