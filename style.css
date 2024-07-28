@@ -3198,7 +3198,7 @@
         align-items: center;
         padding-bottom: 10px;
         width: 100%; 
-        overflow: auto;
+        overflow: scroll;
     }
 
     .left-s-f {
