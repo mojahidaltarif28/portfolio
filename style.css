@@ -3196,7 +3196,6 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
-        overflow: hidden;
         padding-top: 40px;
     }
 
@@ -3370,7 +3369,6 @@
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: #e1f9f9;
-        overflow: hidden;
 
     }
 
