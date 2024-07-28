@@ -3196,7 +3196,7 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
         width: 100%; 
         overflow: auto;
     }
