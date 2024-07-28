@@ -3376,7 +3376,7 @@
         padding-bottom: 10px;
         background-color: #e1f9f9;
         width: 100%;
-        overflow: auto;
+        overflow: scroll;
 
     }
 
