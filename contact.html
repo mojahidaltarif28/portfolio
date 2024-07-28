@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "Fjztf5D381LcYt69Y",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="left-nav">
+                <p>Tarif's Portfolio</p>
+            </div>
+            <div class="right-nav ">
+                <a href="index.html" class="n-home">Home</a>
+                <a href="about.html" class="n-about">About</a>
+                <a href="services.html" class="n-service">Services</a>
+                <a href="project.html" class="n-project">Projects</a>
+                <a href="contact.html" class="n-contact">Contact Me</a>
+            </div>
+        </div>
+    </header>
+    <section class="fifth-section contact-fifth" style=" padding-top: 10px;">
+        <div class="fifth-heading">
+            <p class="get-in">Get In Touch</p>
+            <p class="contact-f">Contact Me</p>
+        </div>
+        <div class="contact-section contact-sec-p">
+            <div class="contact-left contact-left-p">
+                <div class="mailbox mailbox-p">
+                    <div class="mail-logo"><i class="fa-regular fa-envelope"></i></div>
+                    <p class="mailbox-h">MailBox</p>
+                    <p class="mailbox-e">mojahidaltarif78@gmail.com</p>
+                    <a class="send-mail-a" href="mailto:mojahidaltarif78@gmail.com">Send Mail<i
+                            class="fa-regular fa-paper-plane"></i></a>
+
+                </div>
+                <div class="mailbox mailbox-p">
+                    <div class="mail-logo"><i class="fa-brands fa-whatsapp"></i></div>
+                    <p class="mailbox-h">WhatsApp</p>
+                    <p class="mailbox-e">+880 1717268128</p>
+                    <a class="send-mail-a" href="https://wa.me/01717268128">Send Message<i
+                            class="fa-regular fa-paper-plane"></i></a>
+                </div>
+            </div>
+            <div class="contact-right contact-right-p">
+                <form autocomplete="off">
+                    <div class="c-name">
+                        <p><label for="c_name">Name</label></p>
+                        <input type="text" id="c_name" placeholder="Enter Name">
+                        <p id="name_r" class="required">Name is required</p>
+                    </div>
+                    <div class="c-name">
+                        <p><label for="c_email">Email</label></p>
+                        <input type="email" id="c_email" placeholder="Enter Email">
+                        <p id="email_r" class="required">Email is required</p>
+                    </div>
+                    <div class="c-name">
+                        <p><label for="c_subject">Subject</label></p>
+                        <input type="text" id="c_subject" placeholder="Enter Subject">
+                        <p id="subject_r"class="required">Subject is required</p>
+                    </div>
+                    <div class="c-name">
+                        <p><label for="c_message">Message</label></p>
+                        <textarea id="c_message" placeholder="Enter Message" rows="4"></textarea>
+                        <p id="message_r"class="required">Message is required</p>
+                    </div>
+
+                    <button id="send_btn">Send <i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>&#169 MD. Mojahid AL Tarif 2024</p>
+        </div>
+    </footer>
+    <script src="contact.js"></script>
+    <script src="mobile.js"></script>
+</body>
+
+</html>
