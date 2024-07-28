@@ -3197,6 +3197,7 @@
         justify-content: flex-end;
         align-items: center;
         padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .left-s-f {
@@ -3230,7 +3231,6 @@
         width: 90%;
         display: flex;
         justify-content: center;
-        z-index: 400;
     }
 
     main {
