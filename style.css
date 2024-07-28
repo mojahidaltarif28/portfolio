@@ -3343,6 +3343,7 @@
         justify-content: space-evenly;
         align-items: center;
         margin-top: 15px;
+        border: 2px solid brown;
     }
 
     .social-media a {
