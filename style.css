@@ -3196,8 +3196,8 @@
         flex-direction: column-reverse;
         justify-content: flex-end;
         align-items: center;
-        padding-top: 40px;
         padding-bottom: 40px;
+        width: 100%;
     }
 
     .left-s-f {
@@ -3235,8 +3235,13 @@
 
     main {
         background-color: #d6f0f0;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
     }
-
     .profile-image {
         background-image: url("image/profile_image.jpg");
         height: 350px;
@@ -3369,6 +3374,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: #e1f9f9;
+        width: 100%;
 
     }
 
@@ -3575,6 +3581,7 @@
         background-color: #e1f9f9;
         padding-bottom: 20px;
         margin-top: 10px;
+        width: 100%;
 
     }
 
@@ -3710,6 +3717,7 @@
         justify-content: flex-end;
         align-items: center;
         margin-top: 10px;
+        width: 100%;
     }
 
     .left-f-section {
@@ -4005,6 +4013,7 @@
         flex-direction: column;
         margin-top: 15px;
         background-color: #d6f0f0;
+        width: 100%;
     }
 
     .fifth-heading {
