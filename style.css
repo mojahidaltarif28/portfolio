@@ -3194,7 +3194,6 @@
     .first-section {
         display: flex;
         flex-direction: column-reverse;
-        height: 788px;
         justify-content: flex-end;
         align-items: center;
         overflow: hidden;
@@ -3734,7 +3733,7 @@
         text-align: justify;
         width: 90%;
         font-weight: 550;
-        font-family: cursive;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .lfs-d {
@@ -3797,9 +3796,10 @@
     .pch1 {
         font-size: 1.2rem;
         text-align: center;
-        font-family: cursive;
+        font-family: 'Times New Roman', Times, serif;
         font-weight: 550;
         color: #037171;
+      
     }
 
     .pch2 {
@@ -3856,7 +3856,7 @@
 
     .d1 {
         font-size: 1.1rem;
-        font-family: cursive;
+        font-family:'Times New Roman', Times, serif;
         color: #0b0b0b;
         font-weight: 550;
         padding-bottom: 5px;
@@ -4029,7 +4029,7 @@
     }
 
     .get-in {
-        font-family: cursive;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 1.3rem;
         font-weight: 700;
         height: 24px;
@@ -4083,7 +4083,7 @@
     .mailbox-h {
         font-size: 1.2rem;
         margin-top: 15px;
-        font-family: cursive;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .mailbox-e {
