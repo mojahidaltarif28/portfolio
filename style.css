@@ -3611,8 +3611,6 @@
     .service-box {
         width: 70%;
         height: 320px;
-        border: 2px solid rgba(158, 157, 157, 0.192);
-        background-color: #f0f2f2;
         padding: 10px;
         border-radius: 8px;
         transition: all 0.2s ease-in 0s;
@@ -3621,21 +3619,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: rgba(0, 0, 0, 0.808);
+        background-color: #067570;
+        color: white;
+        border: 5px solid #067570;
 
     }
 
     .service-content {
         font-size: 1rem;
         margin-top: 10px;
-
-    }
-
-    .service-box:hover {
-        background-color: #067570;
-        color: white;
-        border-radius: 8px;
-        border: 5px solid #067570;
 
     }
 
@@ -4073,7 +4065,7 @@
         justify-content: center;
         align-items: center;
         height: 50%;
-        width: 250px;
+        width: 330px;
         background-color: #e8f8f8;
         border: 1px solid lightgray;
         border-radius: 10px;
@@ -4107,18 +4099,18 @@
 
     .send-mail-a {
         text-decoration: none;
-        height: 20px;
-        width: 80%;
-        color: #037171;
+        height: 23px;
+        width: 70%;
+        color: white;
         font-size: 1rem;
-        background-color: white;
+        background-color: #037171;
         border-radius: 7px;
-        border: 1px solid #037171;
+        border: 1px solid #02dada;
         margin-top: 10px;
         cursor: pointer;
         text-align: center;
-        margin-bottom: 10px;
-        padding-top: 6px;
+        margin-bottom: 20px;
+        padding-top: 8px;
         padding-bottom: 4px;
     }
 
@@ -4128,9 +4120,9 @@
     }
 
     .send-mail-a:hover {
-        background-color: #037171;
-        color: white;
-        border: 3px solid #037171;
+        background-color: #02dada;
+        color: #037171;
+        border: 1px solid #037171;
     }
 
     .contact-right {
@@ -4178,19 +4170,19 @@
     #send_btn {
         height: 40px;
         width: 120px;
-        color: #037171;
+        color: white;
         font-size: 1rem;
-        background-color: white;
+        background-color:#037171;
         border-radius: 7px;
-        border: 1px solid #037171;
+        border: 1px solid #02dada;
         margin-top: 20px;
         cursor: pointer;
     }
 
     #send_btn:hover {
-        background-color: #037171;
-        color: white;
-        border: 1px solid #02dada;
+        background-color: #02dada;
+        color: #037171;
+        border: 1px solid #037171;
     }
 
     #send_btn i {
