@@ -7,7 +7,7 @@ const text = document.querySelector(".element");
                 text.textContent = "Backend Developer"
             }, 4000);
             setTimeout(() => {
-                text.textContent = "NodeJs Developer"
+                text.textContent = "Laravel Developer"
             }, 8000);
             setTimeout(() => {
                 text.textContent = "Probelm Solver"
