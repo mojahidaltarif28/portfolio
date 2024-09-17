@@ -794,6 +794,14 @@
         background-repeat: no-repeat;
 
     }
+    .dotnet-web-img {
+        width: 535px;
+        height: 272px;
+        background-image: url("image/employeedotnet.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
 
     .salary-java-img {
         width: 372px;
@@ -1827,6 +1835,13 @@
         width: 90%;
         height: 70%;
         background-image: url("image/salary.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .dotnet-web-img {
+        width: 90%;
+        height: 70%;
+        background-image: url("image/employeedotnet.png");
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -2870,6 +2885,13 @@
         width: 90%;
         height: 70%;
         background-image: url("image/salary.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .dotnet-web-img {
+        width: 90%;
+        height: 70%;
+        background-image: url("image/employeedotnet.png");
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -3954,6 +3976,14 @@
         width: 320px;
         height: 159px;
         background-image: url("image/salary.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+    }
+    .dotnet-web-img {
+        width: 320px;
+        height: 159px;
+        background-image: url("image/employeedotnet.png");
         background-size: contain;
         background-repeat: no-repeat;
         border-radius: 8px;
