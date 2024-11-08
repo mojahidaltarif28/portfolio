@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 @media(min-width:1250px) {
     .navbar {
         height: 77px;
@@ -794,6 +795,7 @@
         background-repeat: no-repeat;
 
     }
+
     .dotnet-web-img {
         width: 535px;
         height: 272px;
@@ -801,6 +803,14 @@
         background-size: contain;
         background-repeat: no-repeat;
 
+    }
+
+    .shwapno-img {
+        width: 535px;
+        height: 272px;
+        background-image: url("image/shwapno.png");
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .salary-java-img {
@@ -1838,10 +1848,18 @@
         background-size: contain;
         background-repeat: no-repeat;
     }
+
     .dotnet-web-img {
         width: 90%;
         height: 70%;
         background-image: url("image/employeedotnet.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .shwapno-img{
+        width: 90%;
+        height: 70%;
+        background-image: url("image/shwapno.png");
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -2888,10 +2906,18 @@
         background-size: contain;
         background-repeat: no-repeat;
     }
+
     .dotnet-web-img {
         width: 90%;
         height: 70%;
         background-image: url("image/employeedotnet.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .shwapno-img{
+        width: 90%;
+        height: 70%;
+        background-image: url("image/shwapno.png");
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -3219,7 +3245,7 @@
         justify-content: flex-end;
         align-items: center;
         padding-bottom: 60px;
-        width: 100%; 
+        width: 100%;
         overflow: auto;
     }
 
@@ -3265,6 +3291,7 @@
         align-items: center;
         gap: 5px;
     }
+
     .profile-image {
         background-image: url("image/profile_image.jpg");
         height: 350px;
@@ -3824,7 +3851,7 @@
         font-family: 'Times New Roman', Times, serif;
         font-weight: 550;
         color: #037171;
-      
+
     }
 
     .pch2 {
@@ -3881,7 +3908,7 @@
 
     .d1 {
         font-size: 1.1rem;
-        font-family:'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
         color: #0b0b0b;
         font-weight: 550;
         padding-bottom: 5px;
@@ -3980,10 +4007,19 @@
         background-repeat: no-repeat;
         border-radius: 8px;
     }
+
     .dotnet-web-img {
         width: 320px;
         height: 159px;
         background-image: url("image/employeedotnet.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+    }
+    .shwapno-img{
+        width: 320px;
+        height: 159px;
+        background-image: url("image/shwapno.png");
         background-size: contain;
         background-repeat: no-repeat;
         border-radius: 8px;
@@ -4202,7 +4238,7 @@
         width: 120px;
         color: white;
         font-size: 1rem;
-        background-color:#037171;
+        background-color: #037171;
         border-radius: 7px;
         border: 1px solid #02dada;
         margin-top: 20px;
